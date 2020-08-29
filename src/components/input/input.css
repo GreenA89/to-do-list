@@ -1,0 +1,30 @@
+.input-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .text-input {
+    border-radius: 5px;
+    width: 160px;
+  }
+  
+  .submit {
+    border-radius: 5px;
+    margin-left: 5px;
+    height: 30px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+  }
+  
+  input[type=text] {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 15px;
+  }
+  
+  .submit:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 3px white;
+  }

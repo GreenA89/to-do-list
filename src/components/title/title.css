@@ -1,0 +1,26 @@
+.title {
+    text-shadow: 1px 1px 3px white;
+    margin-top: 0;
+  }
+  
+  .title-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    width: 250px;
+  }
+
+  .undo {
+    border-radius: 5px;
+    margin-left: 5px;
+    height: 30px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    margin-right: 6px;
+  }
+  
+  .undo:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 3px white;
+  }

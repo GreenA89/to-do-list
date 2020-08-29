@@ -1,0 +1,41 @@
+.task-container {
+    width: 250px;
+    height: 300px;
+  }
+  
+  .your-tasks {
+    margin-top: 0;
+    text-shadow: 1px 1px 3px white;
+  }
+  
+  .task {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: solid;
+    border-width: thin;
+    padding-left: 5px;
+    border-radius: 5px;
+    margin-top: 2px;
+  }
+  
+  .task:hover {
+    background: #00cccc;
+    transition: background 1s;
+  }
+  
+  .delete {
+    border-radius: 5px;
+    height: 22px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    padding-bottom: 5px;
+  }
+  
+  .delete:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 3px white;
+    background: grey;
+    color: white;
+    transition: color 1s, background s, box-shadow 1s;
+  }
